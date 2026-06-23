@@ -510,6 +510,11 @@ section {
   margin: 0 auto;
 }
 
+.book-detail-cover {
+  position: sticky;
+  top: 84px;
+}
+
 .book-detail-cover img {
   width: 100%;
   border-radius: 8px;
