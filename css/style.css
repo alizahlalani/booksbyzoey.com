@@ -244,11 +244,13 @@ a:hover {
 .btn-primary {
   background: var(--coral);
   color: var(--white);
+  border: 2px solid var(--coral);
 }
 
 .btn-primary:hover {
   background: var(--coral-hover);
   color: var(--white);
+  border-color: var(--coral-hover);
 }
 
 .btn-outline {
@@ -343,8 +345,18 @@ section {
   border-radius: 50%;
 }
 
-.about-book .btn {
-  margin-top: 1rem;
+.about-book-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.hero-buttons .btn,
+.about-book-buttons .btn,
+.buy-links .btn {
+  min-width: 180px;
+  text-align: center;
 }
 
 /* ---- ABOUT THE AUTHOR ---- */
