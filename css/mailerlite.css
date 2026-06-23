@@ -1,0 +1,193 @@
+.ml-form-embedSubmitLoad {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.ml-form-embedSubmitLoad:after {
+  content: " ";
+  display: block;
+  width: 11px;
+  height: 11px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  border-color: #ffffff #ffffff #ffffff transparent;
+  animation: ml-form-embedSubmitLoad 1.2s linear infinite;
+}
+
+@keyframes ml-form-embedSubmitLoad {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#mlb2-42935717.ml-form-embedContainer {
+  box-sizing: border-box;
+  display: table;
+  margin: 0 auto;
+  position: static;
+  width: 100% !important;
+}
+
+#mlb2-42935717.ml-form-embedContainer h4,
+#mlb2-42935717.ml-form-embedContainer p,
+#mlb2-42935717.ml-form-embedContainer span,
+#mlb2-42935717.ml-form-embedContainer button {
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper {
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+  display: inline-block !important;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+  max-width: 400px;
+  width: 100%;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-align-center {
+  text-align: center;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+  padding: 20px 20px 0 20px;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent,
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {
+  text-align: left;
+  margin: 0 0 20px 0;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
+  color: #ffffff;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  text-align: center;
+  word-break: break-word;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto 20px;
+  text-align: center;
+  max-width: 500px;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+  max-width: 500px;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form {
+  margin: 0;
+  width: 100%;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent {
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item {
+  margin: 0;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.3);
+  border-radius: 6px !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 14px !important;
+  height: auto;
+  line-height: 21px !important;
+  margin: 0;
+  padding: 12px 12px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:focus {
+  border-color: #F2CC8F !important;
+  outline: none;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+  margin: 0 0 20px 0;
+  float: left;
+  width: 100%;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+  background-color: #E07A5F !important;
+  border: none !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 21px !important;
+  height: auto;
+  padding: 12px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading {
+  display: none;
+}
+
+#mlb2-42935717.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
+  background-color: #C96A51 !important;
+}
+
+.ml-error input {
+  border-color: red !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .ml-form-embedWrapper.embedForm { width: 100% !important; }
+}
