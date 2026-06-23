@@ -513,6 +513,7 @@ section {
 .book-detail-cover {
   position: sticky;
   top: 84px;
+  padding-top: 1.5rem;
 }
 
 .book-detail-cover img {
