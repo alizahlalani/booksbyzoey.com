@@ -687,6 +687,8 @@ section {
   .book-detail-cover {
     display: flex;
     justify-content: center;
+    position: static;
+    padding-top: 0;
   }
 
   .book-detail-cover img {
