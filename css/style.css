@@ -502,6 +502,20 @@ section {
   fill: currentColor;
 }
 
+.footer-email {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-email a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.2s;
+}
+
+.footer-email a:hover {
+  color: var(--coral);
+}
+
 .footer-copy {
   font-size: 0.8rem;
   opacity: 0.5;
